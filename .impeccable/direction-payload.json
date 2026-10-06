@@ -1,0 +1,101 @@
+{
+  "title": "Escolha o mundo visual do portfólio",
+  "question": "O sorteio escolheu o Placar de Estádio. Fique com ele, pegue uma alternativa ou sorteie de novo.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Placar de Estádio",
+      "kicker": "THE ROLL",
+      "lineage": "painel eletrônico de estádio + súmula de jogo",
+      "thesis": "Cada entrega é um resultado no painel; o que está no ar aparece como 'ao vivo'.",
+      "palette": ["#0c1612", "#ffb000", "#f1efe6", "#2f9e44", "#26302b"],
+      "materials": ["LED de segmentos com células apagadas", "linhas de cal do campo", "telão do estádio"],
+      "viewport": "Painel em tela cheia: nome e 'dev full-stack' na faixa de cima, números grandes em segmentos (06 entregues, 03 no ar, desde 2013), e o telão à direita rodando o print do Campeonato 2T; botão 'Chamar pra orçar' no painel.",
+      "risk": "Pode soar 'só futebol' para loja ou clínica; o painel precisa nomear os setores de cada entrega.",
+      "raised": [
+        {"from": "challenger-seven-segment", "raise": "Células apagadas também são desenhadas: os dígitos mostram o fantasma de todos os segmentos."},
+        {"from": "challenger-deep-dive", "raise": "Uma só coluna vertical ordena a página inteira, como a tabela de jogos da rodada."},
+        {"from": "challenger-broadside", "raise": "Títulos em tamanhos misturados e gritados, sem medo de escala, como cartaz de jogo."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Romaneio de Entrega",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "DANFE, romaneio e canhoto de entrega",
+      "thesis": "O portfólio como a nota de entrega: cada projeto com destinatário, data e 'entregue' carimbado.",
+      "palette": ["#f4f1e8", "#14181f", "#1f5fd1", "#d23a2a"],
+      "materials": ["papel de formulário contínuo", "carimbo", "código de barras"],
+      "viewport": "Uma nota de entrega gigante com os campos preenchidos: emitente Wiliam Bonetti, itens entregues listados com status, canhoto destacável que é o botão de contato.",
+      "risk": "Também é a direção onde muita gente chega: 'portfólio-recibo' já é um padrão conhecido."
+    },
+    {
+      "id": "challenger-seven-segment",
+      "label": "Display de Sete Segmentos",
+      "verdict": "declined",
+      "lineage": "relógio de cabeceira, totem de posto, placar",
+      "palette": ["#0b0b0b", "#ff2a1a", "#ffb000", "#2a1a17"],
+      "materials": ["máscara de 8 células", "LED vermelho"],
+      "thesis": "Todo texto montado em segmentos, só muda o que acende.",
+      "viewport": "Números de entregas e anos de código como um totem de preço.",
+      "case": "Funde bem, mas é um recorte do placar e perde em clareza para textos longos.",
+      "kept": "Células apagadas desenhadas com o mesmo cuidado das acesas.",
+      "risk": "Ilegível para descrições longas.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-seven-segment-alarm-clock-hero.webp"
+    },
+    {
+      "id": "challenger-broadside",
+      "label": "Folheto de Cordel",
+      "verdict": "declined",
+      "lineage": "broadside popular / literatura de cordel",
+      "palette": ["#efe6d2", "#151210", "#d8342b"],
+      "materials": ["xilogravura", "papel jornal"],
+      "thesis": "Cada projeto como uma folha de cordel com xilogravura no topo.",
+      "viewport": "Manchete em tipos de madeira, banda de gravura, texto em duas colunas.",
+      "case": "Público reconhece, mas prints de sistema brigam com a xilogravura e a oferta fica turva.",
+      "kept": "Manchetes em tamanhos misturados, gritadas.",
+      "risk": "Vira fantasia e esconde o produto.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-posada-calavera-broadside-hero.webp"
+    },
+    {
+      "id": "challenger-deep-dive",
+      "label": "Mergulho Profundo",
+      "verdict": "declined",
+      "lineage": "computador de mergulho",
+      "palette": ["#06142b", "#e9f2f5", "#3fd3e0"],
+      "materials": ["neve marinha", "dígitos de profundidade"],
+      "thesis": "Rolar a página é descer a parede do recife.",
+      "viewport": "Superfície turquesa com profundidade marcada.",
+      "case": "Nem cliente nem recrutador se reconhece nele.",
+      "kept": "Um único eixo vertical rege toda a página.",
+      "risk": "Metáfora sem relação com o trabalho.",
+      "hero": "https://impeccable.style/worlds/cards/rivers-tides-ocean-depths-mesophotic-deep-dive-hero.webp"
+    },
+    {
+      "id": "challenger-command-center",
+      "label": "Central de Comando Anime",
+      "verdict": "declined",
+      "lineage": "painel de crise de mecha anime",
+      "palette": ["#000000", "#ff7a00", "#9cff2e", "#e0201b"],
+      "materials": ["chevron de alerta", "fósforo"],
+      "thesis": "Cada projeto como um alerta na parede de comando.",
+      "viewport": "Parede laranja com contagem regressiva gigante.",
+      "case": "Agressivo demais para dono de loja ou clínica.",
+      "kept": "Todo bloco com moldura e régua.",
+      "risk": "Cosplay em vez de portfólio.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-anime-command-center-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "O padrão da categoria",
+    "thesis": "Portfólio de dev escuro, grid de cards e chips de stack, feito com capricho.",
+    "palette": ["#0c0e11", "#f2f2f2", "#ff8a3d"],
+    "materials": ["grid de cards", "prints em moldura de navegador"],
+    "viewport": "Título grande à esquerda, prints sobrepostos à direita, como o site atual.",
+    "risk": "Igual a todo portfólio de dev, de propósito."
+  },
+  "steer": true
+}

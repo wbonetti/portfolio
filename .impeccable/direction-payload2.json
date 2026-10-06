@@ -1,0 +1,44 @@
+{
+  "title": "Escolha o mundo visual do portfólio",
+  "question": "Novo sorteio: Arquivo de Pastas Suspensas. Fique com ele, pegue uma alternativa ou sorteie de novo.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Arquivo de Pastas Suspensas",
+      "kicker": "THE ROLL",
+      "lineage": "gaveta de arquivo de aço com pastas suspensas coloridas",
+      "thesis": "Cada sistema entregue é uma pasta no arquivo: puxe a aba e o projeto abre com prints, cliente e stack.",
+      "palette": ["#24292d", "#e9e6dc", "#1f8a4c", "#2a62d6", "#e2b023", "#d7442e"],
+      "materials": ["gaveta de aço grafite", "pastas suspensas em cor de setor", "etiqueta datilografada na janela da aba"],
+      "viewport": "A gaveta aberta vista de cima ocupa a tela: seis abas coloridas em escada, cada uma com o nome de uma entrega; na frente da gaveta, a plaqueta 'Wiliam Bonetti, dev full-stack' e o botão 'Chamar pra orçar'.",
+      "risk": "Se o puxar-pasta esconder conteúdo, o visitante não escaneia; todas as entregas precisam continuar legíveis na rolagem.",
+      "raised": [
+        {"from": "challenger-nixie", "raise": "Números com lugar fixo na plaqueta da gaveta: entregas, sistemas no ar, anos de código."},
+        {"from": "challenger-neon", "raise": "Uma única marca vermelha 'no ar' acende só nas pastas com site público."},
+        {"from": "challenger-shrine", "raise": "Cada pasta carimba sua data de entrega, como ficha de arquivo."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Prancha Técnica",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "jogo de pranchas A1 com carimbo e selo",
+      "thesis": "Cada entrega é uma prancha numerada do mesmo jogo de projeto, com selo de cliente, data e escala.",
+      "palette": ["#0f2b4a", "#e8eef4", "#f0c419", "#ff5a36"],
+      "materials": ["papel heliográfico", "cotas e linhas de chamada", "carimbo de prancha"],
+      "viewport": "A prancha 01/06 em tela cheia: o print da Liga 2T como planta, cotas apontando partes do sistema, carimbo no canto com nome e contato.",
+      "risk": "Portfólio em estilo 'blueprint' é um padrão conhecido; é para onde muita geração cai."
+    },
+    {"id": "challenger-riso", "label": "Risografia", "verdict": "declined", "lineage": "impressão risográfica", "palette": ["#f3ece0", "#ff48b0", "#0078bf", "#ffe800"], "materials": ["tinta spot", "meio-tom"], "thesis": "Seções em tintas sobrepostas e levemente desalinhadas.", "viewport": "Manchete em rosa e azul fora de registro.", "case": "Visual de designer; dono de loja ou clínica não se reconhece e os prints perdem leitura.", "kept": "Compromisso com poucas tintas saturadas.", "risk": "Moda de portfólio de designer.", "hero": "https://impeccable.style/worlds/cards/risograph-web-system-hero.webp"},
+    {"id": "challenger-nixie", "label": "Contador Nixie", "verdict": "declined", "lineage": "contador de laboratório", "palette": ["#111111", "#ff7a1a", "#6b6f73"], "materials": ["tubo de vidro", "aço"], "thesis": "Quantidades viram a interface.", "viewport": "Bancos de tubos com os números da carreira.", "case": "Portfólio tem poucos números verdadeiros; vira enfeite.", "kept": "Números em posições fixas, como instrumento.", "risk": "Pouco conteúdo numérico real.", "hero": "https://impeccable.style/worlds/cards/signals-instruments-nixie-laboratory-counter-hero.webp"},
+    {"id": "challenger-silk", "label": "Toldo de Seda", "verdict": "declined", "lineage": "faixas de seda sobre pátio", "palette": ["#2b3a8f", "#a8322d", "#e8a317", "#fbfaf6"], "materials": ["seda translúcida"], "thesis": "Projetos como faixas que se cruzam em acordes de cor.", "viewport": "Faixas cruzando o pátio claro.", "case": "Bonito, mas não diz o que foi entregue.", "kept": "Sobreposição com significado, não decoração.", "risk": "Abstrato demais.", "hero": "https://impeccable.style/worlds/cards/generative-art-computational-color-chord-counterpoint-hero.webp"},
+    {"id": "challenger-coil", "label": "Torre de Barro", "verdict": "declined", "lineage": "cerâmica em cordões", "palette": ["#a5502c", "#5b3a26", "#efe4d6"], "materials": ["argila crua"], "thesis": "A carreira subindo em camadas.", "viewport": "Torre de cordões de argila.", "case": "Sem ligação com sistemas ou com o cliente.", "kept": "Uma camada por entrega, empilhadas no tempo.", "risk": "Metáfora artesanal sem produto.", "hero": "https://impeccable.style/worlds/cards/clay-ceramics-fracture-coiled-earth-tower-hero.webp"},
+    {"id": "challenger-shrine", "label": "Fansite Anos 2000", "verdict": "declined", "lineage": "página de fã com contador", "palette": ["#000080", "#ffff00", "#ff00ff"], "materials": ["fundo ladrilhado", "divisória animada"], "thesis": "Uma coluna devota ao trabalho.", "viewport": "Tabela centralizada com contador de visitas.", "case": "Ironia pesa contra quem quer contratar.", "kept": "Data de atualização à vista.", "risk": "Parece piada.", "hero": "https://impeccable.style/worlds/cards/digital-design-canon-fansite-shrine-page-hero.webp"},
+    {"id": "challenger-neon", "label": "Noite Neon", "verdict": "declined", "lineage": "Tóquio neon", "palette": ["#07070c", "#ff2bd6", "#00e5ff", "#ff2a2a"], "materials": ["neon", "asfalto molhado"], "thesis": "Projetos como letreiros numa torre.", "viewport": "Torre de letreiros com reflexo.", "case": "Clichê de 'dev cyberpunk', afasta o público principal.", "kept": "Uma só marca vermelha para o que está vivo.", "risk": "Clichê.", "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-neo-tokyo-neon-night-hero.webp"}
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {"label": "O padrão da categoria", "thesis": "Portfólio de dev escuro, grid de cards e chips de stack, feito com capricho.", "palette": ["#0c0e11", "#f2f2f2", "#ff8a3d"], "materials": ["grid de cards", "prints em moldura de navegador"], "viewport": "Título grande à esquerda, prints sobrepostos à direita, como o site atual.", "risk": "Igual a todo portfólio de dev, de propósito."},
+  "steer": true
+}

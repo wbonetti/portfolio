@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T00:42:27.105Z",
+  "title": "Design System: Wiliam Bonetti, portfólio",
+  "extensions": {
+    "colorMeta": {
+      "aco": {
+        "role": "neutral",
+        "displayName": "Aço Pintado",
+        "canonical": "#c9cdc6",
+        "oklch": "oklch(84.3% 0.011 131.4)",
+        "purpose": "Fundo da página no tema claro, com grão de tinta.",
+        "tonalRamp": [
+          "#0a0c08",
+          "#222520",
+          "#3e413b",
+          "#5b5f59",
+          "#7b7f78",
+          "#9ca099",
+          "#c2c6bf",
+          "#ecf0e9"
+        ]
+      },
+      "aco-claro": {
+        "role": "neutral",
+        "displayName": "Aço Claro",
+        "canonical": "#dfe2dc",
+        "oklch": "oklch(90.9% 0.009 128.6)",
+        "purpose": "Topo, rodapé e moldura do porta-etiqueta (claro).",
+        "tonalRamp": [
+          "#0a0c08",
+          "#232520",
+          "#3e413c",
+          "#5c5f59",
+          "#7c7e79",
+          "#9d9f9a",
+          "#c2c5bf",
+          "#edf0ea"
+        ]
+      },
+      "aco-fundo": {
+        "role": "neutral",
+        "displayName": "Fundo da Gaveta",
+        "canonical": "#a9aea6",
+        "oklch": "oklch(74.4% 0.013 133.4)",
+        "purpose": "Interior rebaixado da gaveta (claro).",
+        "tonalRamp": [
+          "#090c07",
+          "#22251f",
+          "#3d413b",
+          "#5b5f58",
+          "#7a7f77",
+          "#9ba098",
+          "#c1c6be",
+          "#ebf0e8"
+        ]
+      },
+      "aco-sombra": {
+        "role": "neutral",
+        "displayName": "Sombra do Aço",
+        "canonical": "#8d938b",
+        "oklch": "oklch(65.6% 0.014 137.8)",
+        "purpose": "Trilhos e bordas de 1px (claro).",
+        "tonalRamp": [
+          "#080d07",
+          "#21261f",
+          "#3c423b",
+          "#5a6058",
+          "#797f77",
+          "#9aa098",
+          "#c0c6be",
+          "#eaf1e8"
+        ]
+      },
+      "trilho": {
+        "role": "neutral",
+        "displayName": "Trilho",
+        "canonical": "#eef0eb",
+        "oklch": "oklch(95.2% 0.007 124.4)",
+        "purpose": "Token de trilho (claro).",
+        "tonalRamp": [
+          "#0a0c09",
+          "#232521",
+          "#3f403c",
+          "#5d5e5a",
+          "#7c7e7a",
+          "#9d9f9a",
+          "#c3c5c0",
+          "#edefea"
+        ]
+      },
+      "tinta": {
+        "role": "primary",
+        "displayName": "Tinta de Arquivo",
+        "canonical": "#15191b",
+        "oklch": "oklch(21.0% 0.007 229.3)",
+        "purpose": "Texto sobre aço claro e todo texto sobre papel; corpo do puxador no claro.",
+        "tonalRamp": [
+          "#080c0e",
+          "#212527",
+          "#3c4143",
+          "#5a5e61",
+          "#797e81",
+          "#9a9fa2",
+          "#bfc5c8",
+          "#eaeff2"
+        ]
+      },
+      "tinta-2": {
+        "role": "neutral",
+        "displayName": "Tinta Secundária",
+        "canonical": "#353c3f",
+        "oklch": "oklch(35.1% 0.011 225.4)",
+        "purpose": "Navegação, subtítulos, rodapé (claro).",
+        "tonalRamp": [
+          "#070c0f",
+          "#1f2528",
+          "#3a4144",
+          "#575f62",
+          "#777f82",
+          "#98a0a3",
+          "#bdc6c9",
+          "#e7f0f4"
+        ]
+      },
+      "tinta-escura": {
+        "role": "neutral",
+        "displayName": "Tinta sobre Amarelo",
+        "canonical": "#1a1606",
+        "oklch": "oklch(20.0% 0.029 96.0)",
+        "purpose": "Texto sobre amarelo e na seleção.",
+        "tonalRamp": [
+          "#0f0b00",
+          "#282413",
+          "#44402e",
+          "#625e4b",
+          "#827e6a",
+          "#a49f8a",
+          "#c9c4af",
+          "#f4efd9"
+        ]
+      },
+      "aco-grafite": {
+        "role": "neutral",
+        "displayName": "Aço Grafite",
+        "canonical": "#1d2225",
+        "oklch": "oklch(24.8% 0.009 234.1)",
+        "purpose": "Fundo da página no tema escuro.",
+        "tonalRamp": [
+          "#080c0f",
+          "#202528",
+          "#3b4144",
+          "#595f62",
+          "#787e82",
+          "#999fa3",
+          "#bfc5c9",
+          "#e9f0f4"
+        ]
+      },
+      "aco-grafite-claro": {
+        "role": "neutral",
+        "displayName": "Aço Grafite Claro",
+        "canonical": "#272d31",
+        "oklch": "oklch(29.3% 0.011 237.0)",
+        "purpose": "Topo e rodapé (escuro).",
+        "tonalRamp": [
+          "#070c0f",
+          "#1f2529",
+          "#3a4145",
+          "#585f63",
+          "#777e83",
+          "#98a0a5",
+          "#bec5ca",
+          "#e8f0f5"
+        ]
+      },
+      "aco-grafite-fundo": {
+        "role": "neutral",
+        "displayName": "Fundo da Gaveta Grafite",
+        "canonical": "#111517",
+        "oklch": "oklch(19.2% 0.007 229.3)",
+        "purpose": "Interior da gaveta (escuro).",
+        "tonalRamp": [
+          "#080c0e",
+          "#202527",
+          "#3c4143",
+          "#5a5e61",
+          "#797e81",
+          "#9a9fa2",
+          "#bfc5c8",
+          "#eaeff2"
+        ]
+      },
+      "aco-grafite-sombra": {
+        "role": "neutral",
+        "displayName": "Sombra do Grafite",
+        "canonical": "#080a0b",
+        "oklch": "oklch(14.3% 0.004 227.5)",
+        "purpose": "Trilhos e bordas (escuro).",
+        "tonalRamp": [
+          "#090c0d",
+          "#222426",
+          "#3d4041",
+          "#5b5e5f",
+          "#7b7e7f",
+          "#9c9fa0",
+          "#c1c5c6",
+          "#eceff1"
+        ]
+      },
+      "trilho-grafite": {
+        "role": "neutral",
+        "displayName": "Trilho Grafite",
+        "canonical": "#4a5257",
+        "oklch": "oklch(43.3% 0.013 235.1)",
+        "purpose": "Token de trilho (escuro).",
+        "tonalRamp": [
+          "#060c10",
+          "#1e252a",
+          "#394146",
+          "#575f64",
+          "#767f84",
+          "#97a0a6",
+          "#bcc6cc",
+          "#e6f0f6"
+        ]
+      },
+      "tinta-noite": {
+        "role": "neutral",
+        "displayName": "Tinta Noturna",
+        "canonical": "#eceee9",
+        "oklch": "oklch(94.6% 0.007 124.5)",
+        "purpose": "Texto sobre aço grafite.",
+        "tonalRamp": [
+          "#0a0c09",
+          "#232521",
+          "#3f403c",
+          "#5d5e5a",
+          "#7c7e79",
+          "#9d9f9a",
+          "#c3c5c0",
+          "#edefea"
+        ]
+      },
+      "tinta-noite-2": {
+        "role": "neutral",
+        "displayName": "Tinta Noturna Secundária",
+        "canonical": "#b2b9b5",
+        "oklch": "oklch(77.9% 0.010 161.3)",
+        "purpose": "Navegação e subtítulos (escuro).",
+        "tonalRamp": [
+          "#080c0a",
+          "#202622",
+          "#3b413e",
+          "#595f5c",
+          "#797f7b",
+          "#99a09c",
+          "#bfc6c2",
+          "#e9f1ec"
+        ]
+      },
+      "papel": {
+        "role": "neutral",
+        "displayName": "Papel",
+        "canonical": "#fbfaf4",
+        "oklch": "oklch(98.4% 0.008 98.9)",
+        "purpose": "Prints, formulários, folha da ficha funcional. Fixo entre temas.",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403b",
+          "#5f5e59",
+          "#7e7d78",
+          "#9f9e99",
+          "#c5c4be",
+          "#f0efe9"
+        ]
+      },
+      "cartolina": {
+        "role": "neutral",
+        "displayName": "Cartolina",
+        "canonical": "#f5f1e3",
+        "oklch": "oklch(95.7% 0.019 93.7)",
+        "purpose": "Fichas pautadas, plaqueta, pasta nova. Fixa entre temas.",
+        "tonalRamp": [
+          "#0e0b03",
+          "#27241a",
+          "#434034",
+          "#615e52",
+          "#817d71",
+          "#a29e91",
+          "#c8c4b7",
+          "#f3efe1"
+        ]
+      },
+      "pauta": {
+        "role": "neutral",
+        "displayName": "Pauta Azul",
+        "canonical": "#c7d3e6",
+        "oklch": "oklch(86.4% 0.029 259.6)",
+        "purpose": "Linhas da ficha a cada 1.6rem.",
+        "tonalRamp": [
+          "#050b17",
+          "#1c2432",
+          "#374050",
+          "#545e6f",
+          "#737e8f",
+          "#949fb1",
+          "#b9c5d8",
+          "#e6effe"
+        ]
+      },
+      "etiqueta": {
+        "role": "neutral",
+        "displayName": "Etiqueta",
+        "canonical": "#fffef8",
+        "oklch": "oklch(99.6% 0.008 98.9)",
+        "purpose": "Janela impressa das abas.",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403b",
+          "#5f5e59",
+          "#7e7d78",
+          "#9f9e99",
+          "#c5c4be",
+          "#f0efe9"
+        ]
+      },
+      "texto-papel": {
+        "role": "neutral",
+        "displayName": "Texto de Papel",
+        "canonical": "#252b2e",
+        "oklch": "oklch(28.4% 0.010 229.3)",
+        "purpose": "Parágrafos sobre papel.",
+        "tonalRamp": [
+          "#070c0f",
+          "#1f2528",
+          "#3a4144",
+          "#585f62",
+          "#777f82",
+          "#98a0a3",
+          "#bec5c9",
+          "#e8f0f4"
+        ]
+      },
+      "rotulo-papel": {
+        "role": "neutral",
+        "displayName": "Rótulo Impresso",
+        "canonical": "#59605c",
+        "oklch": "oklch(48.2% 0.011 161.0)",
+        "purpose": "Rótulos mono de campo sobre papel.",
+        "tonalRamp": [
+          "#070d0a",
+          "#202622",
+          "#3b423e",
+          "#59605c",
+          "#787f7b",
+          "#99a19c",
+          "#bec6c2",
+          "#e9f1ec"
+        ]
+      },
+      "tracejado-papel": {
+        "role": "neutral",
+        "displayName": "Tracejado",
+        "canonical": "#b9b29b",
+        "oklch": "oklch(76.3% 0.033 93.0)",
+        "purpose": "Separação de campos na ficha.",
+        "tonalRamp": [
+          "#100b00",
+          "#292411",
+          "#46402c",
+          "#645d49",
+          "#847d67",
+          "#a59e88",
+          "#cbc4ad",
+          "#f6efd6"
+        ]
+      },
+      "haste": {
+        "role": "neutral",
+        "displayName": "Haste",
+        "canonical": "#2b302e",
+        "oklch": "oklch(30.4% 0.008 169.9)",
+        "purpose": "Hastes metálicas das pastas.",
+        "tonalRamp": [
+          "#080c0b",
+          "#202523",
+          "#3c413f",
+          "#595f5d",
+          "#797f7c",
+          "#9aa09e",
+          "#bfc6c3",
+          "#eaf0ee"
+        ]
+      },
+      "carimbo-marinho": {
+        "role": "tertiary",
+        "displayName": "Marinho de Carimbo",
+        "canonical": "#2c3a6e",
+        "oklch": "oklch(36.5% 0.091 270.1)",
+        "purpose": "Só a tinta dos carimbos.",
+        "tonalRamp": [
+          "#030231",
+          "#141e4f",
+          "#2d3b70",
+          "#4a5a91",
+          "#687ab4",
+          "#889cd8",
+          "#afc2fb",
+          "#e8eefe"
+        ]
+      },
+      "verde": {
+        "role": "secondary",
+        "displayName": "Verde Gramado",
+        "canonical": "#1d7a46",
+        "oklch": "oklch(51.3% 0.118 153.7)",
+        "purpose": "Pasta do cliente 2T.",
+        "tonalRamp": [
+          "#000f05",
+          "#002d14",
+          "#044d28",
+          "#0b703d",
+          "#3a915c",
+          "#5eb47c",
+          "#84dba1",
+          "#c7ffd7"
+        ]
+      },
+      "azul": {
+        "role": "secondary",
+        "displayName": "Azul Varejo",
+        "canonical": "#2256c2",
+        "oklch": "oklch(48.6% 0.178 262.5)",
+        "purpose": "Pasta de varejo; anel de foco e cursor.",
+        "tonalRamp": [
+          "#000728",
+          "#021c5b",
+          "#00319b",
+          "#2054c0",
+          "#4077e6",
+          "#6a9cfc",
+          "#a7c5fb",
+          "#e7effe"
+        ]
+      },
+      "laranja": {
+        "role": "secondary",
+        "displayName": "Laranja Terra",
+        "canonical": "#b44d0f",
+        "oklch": "oklch(54.7% 0.149 45.1)",
+        "purpose": "Pasta de agro.",
+        "tonalRamp": [
+          "#190500",
+          "#3e1602",
+          "#682b08",
+          "#954112",
+          "#c35a23",
+          "#e97d48",
+          "#feae8a",
+          "#feeae0"
+        ]
+      },
+      "amarelo": {
+        "role": "primary",
+        "displayName": "Amarelo Editorial",
+        "canonical": "#e4b41f",
+        "oklch": "oklch(79.1% 0.156 88.3)",
+        "purpose": "Pasta editorial, seleção, puxador no escuro.",
+        "tonalRamp": [
+          "#110a00",
+          "#2e2200",
+          "#503d03",
+          "#735a0a",
+          "#99791c",
+          "#c39800",
+          "#edbd2f",
+          "#feedc3"
+        ]
+      },
+      "roxo": {
+        "role": "secondary",
+        "displayName": "Roxo Crédito",
+        "canonical": "#6744b5",
+        "oklch": "oklch(48.7% 0.171 293.3)",
+        "purpose": "Pasta de crédito.",
+        "tonalRamp": [
+          "#0f0129",
+          "#2c0061",
+          "#481e8f",
+          "#6542b3",
+          "#8464d7",
+          "#a586fd",
+          "#c6b9fd",
+          "#efecfe"
+        ]
+      },
+      "grafite": {
+        "role": "secondary",
+        "displayName": "Grafite Pessoal",
+        "canonical": "#3c4448",
+        "oklch": "oklch(38.1% 0.013 229.2)",
+        "purpose": "Ficha funcional do Wiliam.",
+        "tonalRamp": [
+          "#060c0f",
+          "#1e2529",
+          "#394145",
+          "#575f63",
+          "#767f83",
+          "#97a0a5",
+          "#bcc6cb",
+          "#e6f0f5"
+        ]
+      },
+      "vermelho": {
+        "role": "tertiary",
+        "displayName": "Vermelho Lâmpada",
+        "canonical": "#e2311d",
+        "oklch": "oklch(59.5% 0.215 30.5)",
+        "purpose": "Só a lâmpada \"no ar\".",
+        "tonalRamp": [
+          "#1f0000",
+          "#4a0400",
+          "#790e03",
+          "#ad1b0a",
+          "#e02f1b",
+          "#fb6a55",
+          "#ffab9d",
+          "#ffe9e5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Só o título da plaqueta da gaveta."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Título de seção sobre o aço."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nome do sistema dentro da pasta."
+      },
+      "numeral": {
+        "displayName": "Numeral",
+        "purpose": "Contadores em posições fixas da plaqueta."
+      },
+      "etiqueta": {
+        "displayName": "Etiqueta",
+        "purpose": "Texto impresso nas abas."
+      },
+      "carimbo": {
+        "displayName": "Carimbo",
+        "purpose": "Datas e avisos carimbados."
+      },
+      "botao": {
+        "displayName": "Botão",
+        "purpose": "Puxador e link no ar."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texto corrido."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Rótulos de campo impressos no papel, caixa alta."
+      },
+      "dado": {
+        "displayName": "Dado",
+        "purpose": "Datas, períodos, legendas, algarismos tabulares."
+      }
+    },
+    "fontFaces": [
+      {
+        "family": "Archivo",
+        "src": "assets/fonts/archivo-latin-wdth-wght.woff2",
+        "weight": "100 900",
+        "stretch": "62% 125%"
+      },
+      {
+        "family": "Geist",
+        "src": "assets/fonts/geist-latin-wght-normal.woff2",
+        "weight": "100 900"
+      },
+      {
+        "family": "Geist Mono",
+        "src": "assets/fonts/geist-mono-latin-wght-normal.woff2",
+        "weight": "100 900"
+      }
+    ],
+    "themes": {
+      "mode": "prefers-color-scheme com override [data-theme]; só os tokens de aço e tinta invertem",
+      "light": {
+        "--aco": "#c9cdc6",
+        "--aco-claro": "#dfe2dc",
+        "--aco-fundo": "#a9aea6",
+        "--aco-sombra": "#8d938b",
+        "--trilho": "#eef0eb",
+        "--tinta": "#15191b",
+        "--tinta-2": "#353c3f"
+      },
+      "dark": {
+        "--aco": "#1d2225",
+        "--aco-claro": "#272d31",
+        "--aco-fundo": "#111517",
+        "--aco-sombra": "#080a0b",
+        "--trilho": "#4a5257",
+        "--tinta": "#eceee9",
+        "--tinta-2": "#b2b9b5"
+      }
+    },
+    "textures": [
+      {
+        "name": "grao-de-tinta",
+        "value": "radial-gradient(rgb(0 0 0 / .045) 1px, transparent 1.2px) 0 0 / 5px 5px",
+        "purpose": "Chapa pintada eletrostática no fundo da página."
+      },
+      {
+        "name": "pauta-da-ficha",
+        "value": "repeating-linear-gradient(180deg, transparent 0 calc(1.6rem - 1px), var(--pauta) calc(1.6rem - 1px) 1.6rem)",
+        "purpose": "Linhas da ficha de cartolina."
+      },
+      {
+        "name": "mascara-de-carimbo",
+        "value": "PNG raster inline em --tinta-carimbo, mask-size 180px 60px",
+        "purpose": "Falha de tinta do carimbo."
+      }
+    ],
+    "shadows": [
+      {
+        "name": "sombra-pasta",
+        "value": "0 1px 0 rgb(255 255 255 / .25) inset, 0 10px 24px -12px rgb(20 26 24 / .45), 0 2px 4px rgb(20 26 24 / .18)",
+        "purpose": "Corpo da pasta (claro)."
+      },
+      {
+        "name": "sombra-pasta-noite",
+        "value": "0 1px 0 rgb(255 255 255 / .12) inset, 0 14px 28px -12px rgb(0 0 0 / .8), 0 2px 4px rgb(0 0 0 / .5)",
+        "purpose": "Corpo da pasta (escuro)."
+      },
+      {
+        "name": "papel",
+        "value": "0 1px 2px rgb(0 0 0 / .2), 0 12px 24px -16px rgb(0 0 0 / .6)",
+        "purpose": "Fichas, formulários, prints."
+      },
+      {
+        "name": "gaveta",
+        "value": "inset 0 14px 18px -12px rgb(0 0 0 / .45)",
+        "purpose": "Fundo rebaixado da gaveta."
+      },
+      {
+        "name": "pasta-de-tras",
+        "value": "0 -1px 0 rgb(255 255 255 / .22) inset, 0 -8px 14px -10px rgb(0 0 0 / .55)",
+        "purpose": "Pastas do índice sobre a anterior."
+      },
+      {
+        "name": "puxador",
+        "value": "0 1px 0 rgb(255 255 255 / .18) inset, 0 6px 14px -6px rgb(0 0 0 / .55)",
+        "purpose": "Botão principal em repouso."
+      },
+      {
+        "name": "puxador-hover",
+        "value": "0 1px 0 rgb(255 255 255 / .18) inset, 0 12px 20px -8px rgb(0 0 0 / .55)",
+        "purpose": "Botão principal levantado."
+      },
+      {
+        "name": "topo",
+        "value": "0 1px 0 rgb(255 255 255 / .4) inset, 0 6px 14px -10px rgb(0 0 0 / .45)",
+        "purpose": "Barra fixa do topo."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Única curva do sistema."
+      },
+      {
+        "name": "levanta-pasta",
+        "value": "transform .45s; translateY(-12px) (pasta da frente -6px)",
+        "purpose": "Hover/foco nas pastas do índice."
+      },
+      {
+        "name": "puxador",
+        "value": "transform, box-shadow .25s; translateY(-2px)",
+        "purpose": "Hover do botão principal."
+      },
+      {
+        "name": "sobe",
+        "value": ".9s, from translateY(46px), atraso n*70ms + 120ms",
+        "purpose": "Entrada das pastas do índice. Desligado com reduced-motion."
+      },
+      {
+        "name": "puxa",
+        "value": "animation-timeline: view(); range entry 0% a 55%; translateY(70px) + clip-path inset até 0",
+        "purpose": "Pasta sobe de trás da borda ao rolar. Desligado com reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "puxador-sm-oculto",
+        "value": "420px"
+      },
+      {
+        "name": "ficha-linhas",
+        "value": "560px"
+      },
+      {
+        "name": "gutter",
+        "value": "640px"
+      },
+      {
+        "name": "nav",
+        "value": "760px"
+      },
+      {
+        "name": "ficha-funcional",
+        "value": "900px"
+      },
+      {
+        "name": "grade",
+        "value": "980px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Puxador",
+      "kind": "button",
+      "refersTo": "puxador",
+      "description": "Botão principal: o puxador da gaveta.",
+      "html": "<a class=\"ds-puxador\" href=\"#\">Chamar pra orçar <svg width=\"17\" height=\"17\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z\"/></svg></a>",
+      "css": ".ds-puxador{display:inline-flex;align-items:center;gap:.55rem;min-height:48px;padding:0 1.35rem;border-radius:10px;font:700 1rem/1 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:108%;letter-spacing:.005em;text-decoration:none;color:#fbfaf4;background:#15191b;border:1px solid #15191b;box-shadow:0 1px 0 rgb(255 255 255 / .18) inset,0 6px 14px -6px rgb(0 0 0 / .55);transition:transform .25s cubic-bezier(.16,1,.3,1),box-shadow .25s cubic-bezier(.16,1,.3,1)}.ds-puxador:hover{transform:translateY(-2px);box-shadow:0 1px 0 rgb(255 255 255 / .18) inset,0 12px 20px -8px rgb(0 0 0 / .55)}.ds-puxador:active{transform:translateY(0)}.ds-puxador:focus-visible{outline:2.5px solid #2256c2;outline-offset:3px}"
+    },
+    {
+      "name": "Puxador noturno",
+      "kind": "button",
+      "refersTo": "puxador-noite",
+      "description": "Puxador sobre aço grafite.",
+      "html": "<div class=\"ds-noite\"><a class=\"ds-puxador-noite\" href=\"#\">Chamar pra orçar</a></div>",
+      "css": ".ds-noite{background:#1d2225;padding:24px}.ds-puxador-noite{display:inline-flex;align-items:center;min-height:48px;padding:0 1.35rem;border-radius:10px;font:700 1rem/1 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:108%;text-decoration:none;color:#1a1606;background:#e4b41f;border:1px solid #e4b41f;box-shadow:0 1px 0 rgb(255 255 255 / .18) inset,0 6px 14px -6px rgb(0 0 0 / .55);transition:transform .25s cubic-bezier(.16,1,.3,1)}.ds-puxador-noite:hover{transform:translateY(-2px)}.ds-puxador-noite:focus-visible{outline:2.5px solid #e4b41f;outline-offset:3px}"
+    },
+    {
+      "name": "Link no ar",
+      "kind": "button",
+      "refersTo": "no-ar",
+      "description": "Link para o sistema em produção, com a lâmpada vermelha.",
+      "html": "<a class=\"ds-no-ar\" href=\"#\"><span class=\"ds-lampada\"></span>No ar: abrir o site</a>",
+      "css": ".ds-no-ar{display:inline-flex;align-items:center;gap:.5rem;font:700 .95rem/1.2 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:104%;color:#15191b;text-decoration:none;padding:.55rem .8rem;border-radius:8px;background:#fbfaf4;border:1px solid #c9c2a9}.ds-no-ar:hover{border-color:#15191b}.ds-no-ar:focus-visible{outline:2.5px solid #2256c2;outline-offset:3px}.ds-lampada{width:11px;height:11px;border-radius:50%;flex:none;background:radial-gradient(circle at 35% 32%,#ffd2c9 0 14%,#ff5a3f 38%,#e2311d 62%,#9c1c0e 100%);box-shadow:0 1px 1.5px rgb(0 0 0 / .45),0 0 0 1.5px rgb(255 255 255 / .55)}"
+    },
+    {
+      "name": "Navegação do topo",
+      "kind": "nav",
+      "refersTo": "tema",
+      "description": "Trilho de cima da gaveta.",
+      "html": "<header class=\"ds-topo\"><a class=\"ds-marca\" href=\"#\">Wiliam Bonetti</a><nav class=\"ds-nav\"><a href=\"#\">Entregas</a><a href=\"#\">Ficha</a><a href=\"#\">Contato</a></nav><button class=\"ds-tema\" aria-label=\"Alternar tema\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M233.54,142.23a8,8,0,0,0-8-2,88.08,88.08,0,0,1-109.8-109.8,8,8,0,0,0-10-10A104,104,0,1,0,235.54,150.23,8,8,0,0,0,233.54,142.23Z\"/></svg></button></header>",
+      "css": ".ds-topo{display:flex;align-items:center;gap:1rem;height:64px;padding:0 28px;background:#dfe2dc;border-bottom:1px solid #8d938b;box-shadow:0 1px 0 rgb(255 255 255 / .4) inset,0 6px 14px -10px rgb(0 0 0 / .45);color:#15191b}.ds-marca{font:800 1.05rem/1 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:118%;letter-spacing:-.01em;text-decoration:none;color:inherit;margin-right:auto}.ds-nav{display:flex;gap:1.6rem;font:400 .95rem/1.6 \"Geist\",system-ui,sans-serif}.ds-nav a{color:#353c3f;text-decoration:none;padding-block:.4rem}.ds-nav a:hover{color:#15191b;text-decoration:underline}.ds-nav a:focus-visible,.ds-tema:focus-visible{outline:2.5px solid #2256c2;outline-offset:3px;border-radius:4px}.ds-tema{width:40px;height:40px;display:grid;place-items:center;border-radius:8px;background:#c9cdc6;color:#15191b;border:1px solid #8d938b;box-shadow:0 1px 0 rgb(255 255 255 / .35) inset;cursor:pointer}.ds-tema:hover{background:#dfe2dc}"
+    },
+    {
+      "name": "Etiqueta de aba",
+      "kind": "chip",
+      "refersTo": "etiqueta-aba",
+      "description": "Aba recortada com janela de etiqueta impressa.",
+      "html": "<div class=\"ds-aba\" style=\"--cor:#2256c2\"><span class=\"ds-etiqueta\">Varejo</span></div>",
+      "css": ".ds-aba{display:flex;padding-left:20%}.ds-etiqueta{display:inline-flex;align-items:center;height:46px;padding:0 24px;border-radius:10px 10px 0 0;background:linear-gradient(#fffef8,#fffef8) 10px 9px / calc(100% - 20px) 28px no-repeat,var(--cor);color:#15191b;font:700 .95rem/1 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:88%;letter-spacing:.01em}"
+    },
+    {
+      "name": "Pasta",
+      "kind": "card",
+      "refersTo": "pasta-corpo",
+      "description": "A unidade do sistema: aba, corpo na cor do cliente, haste.",
+      "html": "<article class=\"ds-pasta\" style=\"--cor:#1d7a46;--cor-tinta:#fff\"><div class=\"ds-pasta-aba\"><span>2T · esporte</span></div><div class=\"ds-pasta-corpo\"><h3>Campeonato 2T</h3><p>Jogos, tabela e artilharia ao vivo.</p></div></article>",
+      "css": ".ds-pasta{padding:12px;isolation:isolate}.ds-pasta-aba{display:flex;padding-left:8%}.ds-pasta-aba span{display:inline-flex;align-items:center;height:46px;padding:0 24px;border-radius:10px 10px 0 0;background:linear-gradient(#fffef8,#fffef8) 10px 9px / calc(100% - 20px) 28px no-repeat,var(--cor);color:#15191b;font:700 .95rem/1 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:88%}.ds-pasta-corpo{position:relative;background:var(--cor);color:var(--cor-tinta);border-radius:6px 12px 12px 12px;padding:clamp(1.1rem,2.6vw,2rem);box-shadow:0 1px 0 rgb(255 255 255 / .25) inset,0 10px 24px -12px rgb(20 26 24 / .45),0 2px 4px rgb(20 26 24 / .18)}.ds-pasta-corpo::before{content:\"\";position:absolute;top:10px;left:-10px;right:-10px;height:6px;border-radius:3px;background:linear-gradient(180deg,#5a615d,#262b29);z-index:-1}.ds-pasta-corpo h3{margin:0 0 1rem;font:850 clamp(1.9rem,1.2rem + 2.6vw,3.4rem)/.98 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:115%;letter-spacing:-.03em}.ds-pasta-corpo p{margin:0;font:400 1.0625rem/1.6 \"Geist\",system-ui,sans-serif}"
+    },
+    {
+      "name": "Ficha de cartolina",
+      "kind": "card",
+      "refersTo": "ficha",
+      "description": "Ficha pautada com campos.",
+      "html": "<div class=\"ds-ficha\" style=\"--cor:#2256c2\"><span class=\"ds-ficha-cab\" aria-hidden=\"true\">Ficha</span><p>Loja de tênis com pedido fechado no WhatsApp.</p><dl class=\"ds-campos\"><div><dt>Setor</dt><dd>Varejo</dd></div><div><dt>Stack</dt><dd>Node.js, Express, PostgreSQL</dd></div></dl></div>",
+      "css": ".ds-ficha{position:relative;max-width:340px;background:linear-gradient(var(--cor),var(--cor)) 0 2.3rem / 100% 2px no-repeat,repeating-linear-gradient(180deg,transparent 0 calc(1.6rem - 1px),#c7d3e6 calc(1.6rem - 1px) 1.6rem) 0 2.6rem / 100% calc(100% - 2.6rem) no-repeat,#f5f1e3;color:#15191b;border-radius:4px;padding:2.9rem 1.2rem 1.2rem;box-shadow:0 1px 2px rgb(0 0 0 / .18),0 12px 24px -16px rgb(0 0 0 / .6);display:flex;flex-direction:column;gap:.9rem;font:400 1rem/1.6 \"Geist\",system-ui,sans-serif}.ds-ficha p{margin:0;color:#252b2e}.ds-ficha-cab{position:absolute;top:.75rem;left:1.2rem;font:600 .72rem/1 \"Geist Mono\",ui-monospace,monospace;letter-spacing:.08em;text-transform:uppercase;color:#59605c}.ds-campos{margin:0;display:grid;gap:.55rem;padding-top:.7rem;border-top:1px dashed #b9b29b}.ds-campos div{display:grid;grid-template-columns:4.6rem 1fr;gap:.6rem;align-items:baseline}.ds-campos dt{font:600 .7rem/1.4 \"Geist Mono\",ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#59605c}.ds-campos dd{margin:0;font-size:.95rem;line-height:1.45}"
+    },
+    {
+      "name": "Carimbo",
+      "kind": "custom",
+      "refersTo": "carimbo",
+      "description": "Data carimbada em marinho, girada, com multiply (a máscara raster de tinta fica no CSS do site).",
+      "html": "<div class=\"ds-papel\"><span class=\"ds-carimbo\">Ajustado 10/2026</span></div>",
+      "css": ".ds-papel{background:#f5f1e3;padding:24px}.ds-carimbo{display:inline-block;font:800 .78rem/1.1 \"Archivo\",\"Arial Narrow\",sans-serif;font-stretch:92%;letter-spacing:.06em;text-transform:uppercase;color:#2c3a6e;border:2.5px solid currentColor;border-radius:4px;padding:.3rem .5rem;transform:rotate(-4deg);opacity:.92;mix-blend-mode:multiply}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Arquivo de Pastas Suspensas",
+    "overview": "O site é uma gaveta de arquivo de aço aberta. Cada sistema entregue é uma pasta suspensa de cartão, pendurada pela haste nos trilhos, colorida pelo cliente ou setor, com uma aba recortada que segura uma etiqueta impressa. Dentro da pasta ficam os prints presos com clipe, uma ficha de cartolina pautada com os dados da entrega e um carimbo de tinta marinho com a data. Tudo o que aparece na tela tem um equivalente físico de escritório: chapa pintada, cartão, cartolina, papel, tinta de carimbo, lâmpada de painel.\n\nA densidade é de arquivo, não de vitrine: blocos grandes de cor sólida, tipografia larga e pesada nos títulos, texto miúdo e técnico nas fichas. O aço é o único material que muda com o tema (cinza-claro pintado no claro, grafite no escuro); papel, cartolina e cartão das pastas são objetos e mantêm a cor. O vermelho existe em um só lugar: a lâmpada que indica que o sistema está no ar.\n\nO movimento é o de puxar a pasta. No índice da gaveta, passar o mouse ou focar uma aba levanta a pasta; ao rolar, cada pasta sobe de trás da borda. O conteúdo é sempre visível por padrão e fica parado com `prefers-reduced-motion`.",
+    "keyCharacteristics": [
+      "Pastas suspensas em cor sólida de cliente/setor, com aba deslocada e etiqueta impressa.",
+      "Aço pintado com grão fino de tinta eletrostática como fundo (pontos de 1px a 4,5% a cada 5px).",
+      "Superfícies de papel fixas entre temas; só o aço inverte.",
+      "Archivo variável: largo (112 a 120%) nos títulos, condensado (88 a 92%) nas etiquetas e carimbos.",
+      "Geist Mono só para dados: datas, campos da ficha, legendas, stack.",
+      "Sombras de objeto físico empilhado, com brilho de 1px no topo; nada flutua sem motivo.",
+      "Um único vermelho: a lâmpada \"no ar\"."
+    ],
+    "rules": [
+      {
+        "name": "A Regra da Lâmpada Única",
+        "body": "O vermelho só existe na lâmpada que marca um sistema no ar. Nenhum botão, alerta, link ou destaque usa vermelho.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra da Cor de Dono",
+        "body": "Cor de pasta é identidade de cliente ou setor. Mesmo cliente, mesma cor; nova cor só com um novo dono. Nada além das pastas (e o amarelo do puxador noturno) usa essas cores em área.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra do Papel Fixo",
+        "body": "Só o aço muda com o tema. Papel, cartolina, etiqueta e o cartão das pastas mantêm a cor, e o texto sobre papel é sempre `tinta` (#15191b), nunca a variável que inverte.",
+        "section": "colors"
+      },
+      {
+        "name": "A Regra da Largura",
+        "body": "Títulos abrem a largura (108 a 120%); etiquetas e carimbos fecham (88 a 92%). Não use Archivo na largura padrão para títulos.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Dado Mono",
+        "body": "Geist Mono é reservada a dados e rótulos de campo impressos no papel. Não vira sobretítulo acima de um título nem texto corrido.",
+        "section": "typography"
+      },
+      {
+        "name": "A Regra do Objeto Físico",
+        "body": "Sombra só onde há um objeto real sobre outro. Toda sombra é difusa e cai para baixo (ou para cima, entre pastas); nunca sombra dura deslocada.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** dar a cada novo cliente ou setor uma pasta com cor própria e manter a cor quando o cliente se repete.",
+      "**Do** variar o deslocamento da aba (`--aba`) entre pastas vizinhas para que as abas nunca se alinhem.",
+      "**Do** escrever texto sobre papel em `tinta` fixa (#15191b) e manter papel, cartolina e cartão iguais nos dois temas.",
+      "**Do** usar Geist Mono para datas, campos de ficha, legendas e stack, com algarismos tabulares quando houver números.",
+      "**Do** carimbar a data de cada pasta com o carimbo marinho, girado e com a máscara de tinta.",
+      "**Do** garantir que o movimento de puxar seja só enfeite: conteúdo visível sem animação e parado com `prefers-reduced-motion`."
+    ],
+    "donts": [
+      "**Don't** usar vermelho fora da lâmpada \"no ar\".",
+      "**Don't** montar grade de cards com chips nem hero de título à esquerda com prints flutuando; a entrega mora numa pasta.",
+      "**Don't** colocar sobretítulo em mono caixa alta acima de títulos; o rótulo mono é campo de formulário impresso no papel.",
+      "**Don't** usar sombra dura deslocada ou cards flutuando sem objeto embaixo.",
+      "**Don't** usar Archivo na largura padrão nos títulos nem trocá-la por uma fonte do sistema.",
+      "**Don't** inverter papel ou cartolina no tema escuro."
+    ]
+  }
+}
