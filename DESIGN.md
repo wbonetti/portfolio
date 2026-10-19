@@ -31,6 +31,7 @@ colors:
   laranja: "#b44d0f"
   amarelo: "#e4b41f"
   roxo: "#6744b5"
+  petroleo: "#0f6b74"
   grafite: "#3c4448"
   vermelho: "#e2311d"
 typography:
@@ -193,12 +194,13 @@ Paleta de escritório: aço neutro levemente esverdeado, papéis quentes e seis 
 - **Amarelo Editorial** (`amarelo`): pasta do cliente editorial, seleção de texto (com `tinta-escura`) e o puxador no tema escuro, onde a tinta escura sumiria no grafite.
 
 ### Secondary: cores de pasta
-Cada cor identifica um cliente ou setor, nunca decoração. Texto sobre a pasta usa `--cor-tinta`: branco sobre verde, azul, laranja, roxo e grafite (5,2:1 a 9,9:1); `tinta-escura` sobre amarelo (9,3:1).
+Cada cor identifica um cliente ou setor, nunca decoração. Texto sobre a pasta usa `--cor-tinta`: branco sobre verde, azul, laranja, roxo, petróleo e grafite (5,2:1 a 9,9:1); `tinta-escura` sobre amarelo (9,3:1).
 - **Verde Gramado** (`verde`): cliente 2T (esporte e saúde esportiva). Duas pastas, mesma cor, porque é o mesmo cliente.
 - **Azul Varejo** (`azul`): varejo. Também é o anel de foco e o cursor de texto.
 - **Laranja Terra** (`laranja`): agro.
 - **Amarelo Editorial** (`amarelo`): editorial.
 - **Roxo Crédito** (`roxo`): crédito.
+- **Petróleo Comunidades** (`petroleo`): produtos próprios de comunidade (Achei Grupo).
 - **Grafite Pessoal** (`grafite`): a ficha funcional do próprio Wiliam.
 - A pasta nova (contato) não tem cor: é cartão cru (`cartolina`) com contorno tracejado.
 

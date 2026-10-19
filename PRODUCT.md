@@ -28,6 +28,8 @@ Projetos entregues (confirmados pelo Wiliam):
 - Landing do livro "O Diabo é Não Viver" (autor Deivid Freitas): https://livro-o-diabo-e-nao-viver.vercel.app
 - Sistema de Dosimetria de Risco de Lesões (para a 2T): avaliação multidimensional de atletas, score de risco, laudo em PDF com IA. Sem prints: dados de saúde de atletas.
 - Aplicação de Precisão: plugin QGIS com YOLO para prescrição localizada; landing pública em https://precision-agriculture-one.vercel.app; prints em assets/img/qgis-*.webp.
+- Análise de Desempenho 2T: relatórios de testes físicos (planilha MyJump lida no navegador, gráficos e PDF) em https://analise2t.wbonetti.com.br. Prints só com planilha de atletas fictícios.
+- Achei Grupo: produto próprio, diretório de grupos de WhatsApp/Telegram com Pix (Mercado Pago), destaque pago e anúncios. Domínio acheigrupo.com.br; em 2026-10-19 estava fora do ar, por isso entra sem print e sem link. Não rodar local para print: o banco tem grupos reais.
 - Plataforma de consultas de crédito white-label (ToolsData): sistema comercial privado. Nunca usar prints nem nomes de clientes.
 
 Outros trabalhos sem cliente confirmado (LigaPro SaaS genérico, gestão rural, automações n8n) não devem ser apresentados como entregas.
