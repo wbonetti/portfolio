@@ -2,18 +2,25 @@ import { useEffect, useRef, useState } from 'react';
 
 const SHOTS = [
   'liga-home',
+  'an-evolucao',
+  'kz-home',
   'wb-vitrine',
   'qgis-plugin',
+  'pt-prod',
+  'an-absoluto',
   'liga-tabela',
   'livro',
+  'kz-cat',
   'wb-home',
+  'an-home',
+  'pt-home',
   'liga-jogos',
   'qgis-landing',
   'liga-artilharia',
 ].map((name) => `/img/${name}.webp`);
 
-const ROW_1 = SHOTS.slice(0, 5);
-const ROW_2 = SHOTS.slice(5);
+const ROW_1 = SHOTS.slice(0, 8);
+const ROW_2 = SHOTS.slice(8);
 
 function Row({ images, transform }: { images: string[]; transform: string }) {
   const tripled = [...images, ...images, ...images];

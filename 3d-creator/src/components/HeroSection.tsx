@@ -9,10 +9,14 @@ const NAV_LINKS = [
   { label: 'Contato', href: '#contato' },
 ];
 
+// Esfuma as laterais (ombros cortados) e a base do busto para fundir com o fundo.
+const AVATAR_MASK =
+  'linear-gradient(to right, transparent 0%, #000 14%, #000 86%, transparent 100%), linear-gradient(to bottom, #000 78%, transparent 100%)';
+
 export default function HeroSection() {
   return (
     <section className="relative flex h-screen flex-col" style={{ overflowX: 'clip' }}>
-      <FadeIn as="nav" delay={0} y={-20} className="flex justify-between px-6 pt-6 md:px-10 md:pt-8">
+      <FadeIn as="nav" delay={0} y={-20} className="relative z-30 flex justify-between px-6 pt-6 md:px-10 md:pt-8">
         {NAV_LINKS.map((link) => (
           <a
             key={link.href}
@@ -33,7 +37,7 @@ export default function HeroSection() {
       </div>
 
       <div className="mt-auto flex items-end justify-between gap-4 px-6 pb-7 sm:pb-8 md:px-10 md:pb-10">
-        <FadeIn delay={0.35} y={20}>
+        <FadeIn delay={0.35} y={20} className="relative z-20">
           <p
             className="max-w-[160px] font-light uppercase leading-snug tracking-wide text-[#D7E2EA] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
@@ -46,7 +50,7 @@ export default function HeroSection() {
         </FadeIn>
       </div>
 
-      <div className="absolute left-1/2 top-1/2 z-10 w-[180px] -translate-x-1/2 -translate-y-1/2 sm:bottom-0 sm:top-auto sm:w-[260px] sm:translate-y-0 md:w-[320px] lg:w-[380px]">
+      <div className="pointer-events-none absolute left-1/2 top-1/2 z-10 w-[280px] -translate-x-1/2 -translate-y-1/2 sm:bottom-0 sm:top-auto sm:w-[340px] sm:translate-y-0 md:w-[360px] lg:w-[420px] xl:w-[520px]">
         <FadeIn delay={0.6} y={30}>
           <Magnet
             padding={150}
@@ -54,14 +58,15 @@ export default function HeroSection() {
             activeTransition="transform 0.3s ease-out"
             inactiveTransition="transform 0.6s ease-in-out"
           >
-            <div className="aspect-[585/1000] overflow-hidden rounded-[28px] border-[6px] border-[#1c1c1c] shadow-[0_30px_80px_rgba(0,0,0,0.6)] sm:rounded-b-none sm:border-b-0">
-              <img
-                src="/img/liga-mobile.webp"
-                alt="Site do Campeonato 2T aberto no celular"
-                className="block h-full w-full object-cover object-top"
-                draggable={false}
-              />
-            </div>
+            <img
+              src="/img/wiliam-avatar.webp"
+              alt="Avatar 3D de Wiliam Bonetti"
+              width={1040}
+              height={1300}
+              className="block h-auto w-full"
+              style={{ maskImage: AVATAR_MASK, WebkitMaskImage: AVATAR_MASK, maskComposite: 'intersect', WebkitMaskComposite: 'source-in' }}
+              draggable={false}
+            />
           </Magnet>
         </FadeIn>
       </div>

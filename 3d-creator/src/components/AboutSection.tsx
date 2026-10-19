@@ -4,7 +4,7 @@ import FadeIn from './FadeIn';
 
 const STATS = [
   {
-    value: '6',
+    value: '10',
     label: 'entregas',
     className: 'top-[4%] left-[1%] sm:left-[2%] md:left-[4%] items-start text-left',
     delay: 0.1,
@@ -18,7 +18,7 @@ const STATS = [
     x: -80,
   },
   {
-    value: '4',
+    value: '7',
     label: 'no ar',
     className: 'top-[4%] right-[1%] sm:right-[2%] md:right-[4%] items-end text-right',
     delay: 0.15,

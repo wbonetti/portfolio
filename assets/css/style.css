@@ -45,6 +45,7 @@
   --amarelo: #e4b41f;
   --roxo: #6744b5;
   --petroleo: #0f6b74;
+  --terracota: #9b4322;
   --grafite: #3c4448;
   --vermelho: #e2311d;
 
@@ -221,7 +222,7 @@ ol, ul { list-style: none; }
   --aba: 0%;
   position: relative; z-index: 1;
   display: block; text-decoration: none;
-  margin-top: -9px;
+  margin-top: -12px;
   color: var(--cor-tinta);
   transition: transform .45s var(--ease);
 }
@@ -238,8 +239,8 @@ ol, ul { list-style: none; }
   position: relative; display: block;
   background: var(--cor);
   border-radius: 4px 4px 0 0;
-  padding: 8px 14px 12px;
-  font: 600 .8rem/1.2 var(--sans);
+  padding: 7px 14px 11px;
+  font: 600 .78rem/1.2 var(--sans);
   box-shadow: 0 -1px 0 rgb(255 255 255 / .22) inset, 0 -8px 14px -10px rgb(0 0 0 / .55);
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
